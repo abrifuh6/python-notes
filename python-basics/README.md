@@ -422,6 +422,24 @@ fruits = ["apple", "banana", "cherry", "date"]
 print("List of Fruits:", fruits)
 ```
 
+### i. Accessing Elements in a List
+
+- Elements in a list can be accessed using indexing:
+- For Example:
+
+```python
+# Accessing elements in a list example
+first_fruit = fruits[0]
+second_fruit = fruits[1]
+
+print("First Fruit:", first_fruit)
+print("Second Fruit:", second_fruit)
+```
+
+### i. Modifying a List
+
+- Lists are mutable, meaning you can change their contents by adding or removing elements.
+
 ## - Tuples
 ## - Dictionary
 ## - DateTime()
