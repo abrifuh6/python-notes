@@ -322,6 +322,7 @@ print("Scientific Notation:", scientific_notation)
 Python supports complex numbers, which have a real and an imaginary part.
 
 - Example:
+
 ```python
 # Complex number example
 complex_number = 3 + 2j
@@ -332,7 +333,95 @@ print("Imaginary Part:", complex_number.imag)
 ```
 
 ## - Strings
+
+### 1. String Basics
+
+- Strings are sequences of characters in Python, and they are used to represent text. Understanding how to manipulate and work with strings is essential for a wide range of applications.
+
+- In Python, you can define strings using single (' '), double (" "), or triple (''' ''' or """ """) quotes.
+
+- Examples:
+
+```python
+# String definition examples
+single_quotes = 'Single quotes'
+double_quotes = "Double quotes"
+triple_single_quotes = '''Triple single quotes'''
+triple_double_quotes = """Triple double quotes"""
+
+print(single_quotes)
+print(double_quotes)
+print(triple_single_quotes)
+print(triple_double_quotes)
+```
+
+### ii. String Concatenation
+
+- Concatenation is the process of combining strings.
+- Example:
+
+```python
+# String concatenation example
+first_name = "John"
+last_name = "Doe"
+
+full_name = first_name + " " + last_name
+print("Full Name:", full_name)
+```
+
+### iii. String Indexing and Slicing
+
+- Strings are sequences, and you can access individual characters using indexing and extract substrings using slicing.
+
+- Example:
+```python
+# String indexing and slicing example
+message = "Hello, World!"
+
+# Indexing
+first_char = message[0]
+print("First Character:", first_char)
+
+# Slicing
+# message[7:12] means it will start from index 7 but not including index 12. 
+
+substring = message[7:12]
+print("Substring:", substring)
+```
+
+### String Methods
+
+- Python provides a variety of built-in string methods for string manipulation.
+- Example:
+
+```python
+sentence = "God is the almighty in His Ways"
+
+# Uppercase
+uppercase_sentence = sentence.upper()
+print("Uppercase: ", uppercase_sentence)
+
+# Replace
+modified_sentence = sentence.replace("almighty", "Powerful")
+print("Modified Sentence: ", modified_sentence)
+```
+
 ## - Lists
+
+- Lists are one of the most versatile and widely used data structures in Python. They are ordered collections that can hold a variety of data types. Understanding how to work with lists is fundamental for many applications.
+
+### i. List Basics
+
+- In Python, lists are defined using square brackets `[]`.
+- Example:
+
+```python
+# List definition example
+fruits = ["apple", "banana", "cherry", "date"]
+
+print("List of Fruits:", fruits)
+```
+
 ## - Tuples
 ## - Dictionary
 ## - DateTime()
