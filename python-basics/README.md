@@ -237,9 +237,100 @@ else:
 
 Nested conditions allow you to create intricate decision trees to handle various situations in your program.
 
-
 ## - Loops
+
+- Loops in Python are used for repetitive execution of a block of code. There are two main types of loops: `for` loops and `while` loops. They play a crucial role in automating repetitive tasks and iterating over data structures. Let's explore both types with real-life examples.
+
+## i. `for` Loop
+
+The `for` loop is used to iterate over a sequence (list, tuple, string, etc.) and execute a block of code for each item in the sequence.
+
+### Example: Printing Items in a Shopping List
+
+```python
+shopping_list = ["apple", "banana", "chocolate", "water"]
+
+for item in shopping_list:
+    print(f"Buy {item}")
+```
+
+## ii. `while` Loop
+
+- The while loop continues to execute a block of code as long as a specified condition is true.
+- For example: Simple Password Authentication. 
+
+```python
+correct_password = "password"
+attempts = 3
+
+while attempts > 0:
+    user_input = input("Enter your password: ")
+    
+    if user_input == correct_password:
+        print("Login successful!")
+        break
+    else:
+        attempts -= 1
+        print(f"Incorrect password. {attempts} attempts remaining.")
+
+    if attempts == 0:
+        print("Account locked. Too many incorrect attempts.")
+
+```
+
+- In this example, the while loop simulates a simple user login system. The user has three attempts to enter the correct password. The loop provides feedback on incorrect attempts and locks the account after too many failures.
+
+- These examples demonstrate the practical use of loops in Python, making your code more efficient and allowing for the automation of repetitive tasks.
+
 ## - Numbers
+
+In Python, **numbers** can be categorized into different types, including integers and floating-point numbers. Understanding how to work with these types is fundamental for various applications.
+
+## i. Integers
+
+Integers are whole numbers without a fractional component. They can be positive or negative.
+
+### Examples:
+
+```python
+# Whole number (integer) examples
+positive_integer = 5
+negative_integer = -3
+zero = 0
+
+print("Positive Integer:", positive_integer)
+print("Negative Integer:", negative_integer)
+print("Zero:", zero)
+```
+
+## ii. Floating-Point Numbers
+
+Floating-point numbers have a decimal point, or they can be expressed using scientific notation.
+
+- Examples:
+
+```python
+simple_float = 3.14
+scientific_notation = 2.5e2  # 2.5 times 10 to the power of 2
+
+print("Simple Float:", simple_float)
+print("Scientific Notation:", scientific_notation)
+```
+
+## iii. Complex Numbers
+
+Python supports complex numbers, which have a real and an imaginary part.
+
+- Example:
+```python
+# Complex number example
+complex_number = 3 + 2j
+
+print("Complex Number:", complex_number)
+print("Real Part:", complex_number.real)
+print("Imaginary Part:", complex_number.imag)
+```
+
 ## - Strings
 ## - Lists
 ## - Tuples
