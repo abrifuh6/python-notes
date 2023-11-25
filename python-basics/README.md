@@ -408,7 +408,8 @@ print("Modified Sentence: ", modified_sentence)
 
 ## - Lists
 
-- Lists are one of the most versatile and widely used data structures in Python. They are ordered collections that can hold a variety of data types. Understanding how to work with lists is fundamental for many applications.
+- Lists are one of the most versatile and widely used data structures in Python. They are ordered collections that can hold a variety of data types. Understanding how to work with lists is fundamental for many applications. 
+- Lists are mutable, meaning you can change their contents by adding or removing elements unlike "Tuples". 
 
 ### i. List Basics
 
@@ -436,11 +437,20 @@ print("First Fruit:", first_fruit)
 print("Second Fruit:", second_fruit)
 ```
 
-### i. Modifying a List
-
-- Lists are mutable, meaning you can change their contents by adding or removing elements.
-
 ## - Tuples
+
+- Tuples are ordered, immutable sequences in Python. Once created, the elements of a tuple cannot be changed or modified. They are commonly used to store related pieces of information.
+- Tuples and lists looks similar in presenatation. The difference is with tuples, the values is presented inside parenthesis `()` while lists are presented inside sqare brackets`[]`
+- Example
+
+```python
+# Creating a tuple with different data types
+mixed_tuple = (1, "apple", 3.14, True)
+
+# Creating a tuple with similar data types
+fruits_tuple = ("apple", "banana", "orange")
+```
+
 ## - Dictionary
 ## - DateTime()
 ## - Functions
