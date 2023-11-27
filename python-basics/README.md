@@ -467,7 +467,70 @@ student_info = {
 }
 ```
 
+- To access and modify dictionaries, here's an example below.
+
+- ### Accessing values using keys
+
+student_name = student_info["name"]
+student_age = student_info["age"]
+
+- ### Using the get() method
+
+student_grade = student_info.get("grade", "N/A")
+
+- ### Modifying values
+
+student_info["age"] = 26
+
+- ### Adding new key-value pairs
+
+student_info["gender"] = "Female"
+
+- ### Removing key-value pairs
+
+del student_info["grade"]
+
+## - Dictionary Functions
+
+### Getting keys and values
+
+keys = student_info.keys()
+values = student_info.values()
+
+### Checking membership
+
+is_grade_present = "grade" in student_info
+
 ## - DateTime()
+
+- `datetime` is a module in Python that provides classes for working with dates and times. It allows you to perform various operations, such as formatting dates, calculating differences, and working with time zones.
+
+- Importing `datetime` 📚
+
+```python
+# Importing the datetime module
+from datetime import datetime, timedelta
+```
+
+- Getting the current date and time
+
+```python
+current_datetime = datetime.now()
+```
+
+- Formatting a datetime object as a string
+
+```python
+formatted_date = current_datetime.strftime("%Y-%m-%d %H:%M:%S")
+```
+
+- Calculating the difference between two dates
+
+```python
+other_datetime = current_datetime + timedelta(days=5)
+time_difference = other_datetime - current_datetime
+```
+
 ## - Functions
 ## - Modules
 ## - Exceptions
