@@ -452,6 +452,21 @@ fruits_tuple = ("apple", "banana", "orange")
 ```
 
 ## - Dictionary
+
+- Dictionaries in Python are powerful data structures that allow you to store and retrieve data using **key-value pairs**.
+- They are unordered, mutable, and versatile, making them suitable for a wide range of applications.
+
+## Creating Dictionaries 🌐
+
+```python
+# Creating a dictionary with key-value pairs
+student_info = {
+    "name": "Alice",
+    "age": 25,
+    "grade": "A"
+}
+```
+
 ## - DateTime()
 ## - Functions
 ## - Modules
