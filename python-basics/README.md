@@ -555,5 +555,53 @@ greet ("Alice")
 def add_numbers(x,  y):
    """A function that adds two numbers"""
    return x + y
+
 ## - Modules
+
+- Modules in Python are files containing Python code that define functions, variables, and classes.
+- They allow you to organize code into separate files, making it more modular and maintainable.
+- Python comes with a rich standard library of modules, and you can also create your own.
+
+## Importing Modules 🌐
+
+```python
+# Importing the entire module
+import math
+
+# Importing specific functions or classes from a module
+from math import sqrt, pi
+```
+
+### Using Standard Library Modules 📚
+
+- Example:
+
+```python
+# Using the math module
+radius = 5
+area = math.pi * math.pow(radius, 2)
+```
+
+### Creating Your Own Modules 🛠
+
+```python
+# creating a custom module(my_module.py)
+#Contents of my my_module.py:
+# def greet(name):
+#     print(f"Hello, {name}!")
+
+# Using the custom module,
+from my_module import greet
+greet ("Alice")
+```
+
+### Module Aliasing 🚀
+
+ ```python
+ # Aliasing a module for a shorter name
+ import math as m
+
+ # Using the imported aliased module
+ result = m.sqrt(25)
+
 ## - Exceptions
