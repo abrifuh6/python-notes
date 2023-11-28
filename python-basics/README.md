@@ -532,5 +532,28 @@ time_difference = other_datetime - current_datetime
 ```
 
 ## - Functions
+
+- Functions in Python allow you to encapsulate a block of code, making it reusable and modular. They enhance code readability and maintainability by breaking down complex tasks into smaller, manageable pieces.
+
+- How does on define functions? 
+
+```python
+# Defining a simple function
+def greet(name):
+    """A function that greets the user."""
+    print(f"Hello, {name}!")
+```
+
+- To call the function, we can say
+
+```python
+greet ("Alice")
+```
+
+### Functions with multiple parameters.
+
+def add_numbers(x,  y):
+   """A function that adds two numbers"""
+   return x + y
 ## - Modules
 ## - Exceptions
