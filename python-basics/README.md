@@ -1,4 +1,52 @@
-# Python
+# Python Notes
+
+## Table of Contents
+
+
+1. [Introduction](#introduction)
+    - [Syntax](#1-syntax)
+    - [Semantics](#2-semantics)
+
+2. [ABCs Of Python](#abcs-of-python)
+    - [Variables](#-variables)
+        - [Variable Naming Conventions in Python](#variable-naming-conventions-in-python)
+    - [Operators](#-operators)
+    - [Conditions](#-conditions)
+    - [Loops](#-loops)
+        - [for Loop](#i-for-loop)
+        - [while Loop](#ii-while-loop)
+        - [Nested Conditions](#iv-nested-conditions)
+    - [Numbers](#-numbers)
+        - [Integers](#i-integers)
+        - [Floating-Point Numbers](#ii-floating-point-numbers)
+        - [Complex Numbers](#iii-complex-numbers)
+    - [Strings](#-strings)
+        - [String Basics](#1-string-basics)
+        - [String Concatenation](#ii-string-concatenation)
+        - [String Indexing and Slicing](#iii-string-indexing-and-slicing)
+        - [String Methods](#string-methods)
+    - [Lists](#-lists)
+        - [List Basics](#i-list-basics)
+        - [Accessing Elements in a List](#i-accessing-elements-in-a-list)
+    - [Tuples](#-tuples)
+    - [Dictionary](#-dictionary)
+        - [Creating Dictionaries](#creating-dictionaries)
+        - [Accessing and Modifying Dictionaries](#accessing-and-modifying-dictionaries)
+        - [Dictionary Functions](#dictionary-functions)
+    - [DateTime()](#-datetime)
+    - [Functions](#-functions)
+        - [Function Definition](#how-does-on-define-functions)
+        - [Functions with Multiple Parameters](#functions-with-multiple-parameters)
+    - [Modules](#-modules)
+        - [Importing Modules](#importing-modules)
+        - [Using Standard Library Modules](#using-standard-library-modules)
+        - [Creating Your Own Modules](#creating-your-own-modules)
+        - [Module Aliasing](#module-aliasing)
+    - [Exceptions](#-exceptions)
+        - [Handling Exceptions](#handling-exceptions)
+        - [Raising Exceptions](#raising-exceptions)
+        - [Custom Exceptions](#custom-exceptions)
+        - [Exception Handling Best Practices](#exception-handling-best-practices)
 
 ## Introduction
 
