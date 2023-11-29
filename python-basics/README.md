@@ -603,5 +603,57 @@ greet ("Alice")
 
  # Using the imported aliased module
  result = m.sqrt(25)
+```
 
 ## - Exceptions
+
+- Exceptions in Python are events that occur during the execution of a program and disrupt its normal flow. They are raised when an error or exceptional condition occurs, and they can be caught and handled to prevent program termination.
+
+- Handling Exceptions 🛡
+
+```python
+try:
+    # Code that may raise an exception
+    result = 10 / 0
+except ZeroDivisionError as e:
+    # Handling the specific exception
+    print(f"Error: {e}")
+except Exception as e:
+    # Handling other exceptions
+    print(f"Unexpected error: {e}")
+finally:
+    # Code that will be executed no matter what
+    print("Cleanup code")
+```
+
+- ### Raising Exceptions ⚠️
+
+```python
+def validate_age(age):
+    if age < 0:
+        raise ValueError("Age cannot be negative")
+    return age
+```
+
+- ### Custom Exceptions 🧑‍💻
+
+```python
+class CustomError(Exception):
+    def __init__(self, message="A custom error occurred"):
+        self.message = message
+        super().__init__(self.message)
+
+# Raise a custom exception
+try:
+    raise CustomError("This is a custom exception")
+except CustomError as ce:
+    print(f"Caught custom exception: {ce}")
+
+```
+
+### Exception Handling Best Practices 🌐
+
+- **Specificity**: Handle specific exceptions rather than using a broad except block.
+- **Cleanup**: Utilize finally for cleanup code that should run regardless of whether an exception occurred.
+- **Logging**: Consider logging exceptions to aid debugging.
+- **Custom Exceptions**: Create custom exceptions for specific error conditions in your application.
