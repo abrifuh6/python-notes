@@ -63,3 +63,4 @@ Make sure you have the following installed on your machine:
      python3 --version
      pip3 --version
      ```
+## make sure everything is working 
