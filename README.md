@@ -705,3 +705,4 @@ except CustomError as ce:
 - **Cleanup**: Utilize finally for cleanup code that should run regardless of whether an exception occurred.
 - **Logging**: Consider logging exceptions to aid debugging.
 - **Custom Exceptions**: Create custom exceptions for specific error conditions in your application.
+- **To be Continued**
